@@ -13,13 +13,13 @@ module.exports = {
    AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
    DELETED_LOG: toBool(process.env.DELETED_LOG) || true,
    STATUS_SAVER: toBool(process.env.STATUS_SAVER) || false,
-   AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
+   AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "KermLite~uHxjQmTk", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237656520674",
+   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KHALIL🍆 𝐒𝚸𝚵𝚵𝐃🔥 𝑬𝑽𝑰𝑳😈;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
+   SUDO: process.env.SUDO || "2250574901688",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
@@ -27,9 +27,9 @@ module.exports = {
    BRANCH: "master",
    AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "KᴇʀᴍLɪᴛᴇ⚡️",
-   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
-   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
+   PACKNAME: process.env.PACKNAME || "𝐊𝚮𝚫𝐋𝚰𝐋🍆 𝐒𝚸𝚵𝚵𝐃🔥 𝑬𝑽𝑰𝑳😈",
+   WELCOME_MSG: process.env.WELCOME_MSG || "Hi batala 😹 @user Welcome to @gname",
+   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you...fuck all",
    RMBG_KEY: process.env.RMBG_KEY || "",
    WORK_TYPE: process.env.WORK_TYPE || "private",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
