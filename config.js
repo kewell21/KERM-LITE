@@ -16,10 +16,10 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "KermLite~uHxjQmTk", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "KermLite~L0wU8REh", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
    BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KHALIL🍆 𝐒𝚸𝚵𝚵𝐃🔥 𝑬𝑽𝑰𝑳😈;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "2250574901688",
+   SUDO: process.env.SUDO || "2250502054881",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
